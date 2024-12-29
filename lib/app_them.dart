@@ -38,6 +38,12 @@ textTheme: const TextTheme(
     color: blackColor
 
   )
+    ,
+  headlineSmall: TextStyle(
+    color: primary,
+    fontWeight: FontWeight.bold
+
+  )
   )
 ,
     tabBarTheme:TabBarTheme(
@@ -53,7 +59,8 @@ textTheme: const TextTheme(
       
       
     )
-
+,
+    scaffoldBackgroundColor: blackColor
       );
 
 
