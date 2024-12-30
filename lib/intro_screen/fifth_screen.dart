@@ -19,18 +19,17 @@ static String routeName="/fifthScreen";
           children: [
             Image.asset("assets/images/header.png"),
             Image.asset("assets/images/lastImageinintro.png"),
+
             Align(alignment: Alignment.bottomCenter,
                 child:
                 Text("Holy Quran Radio",style:textStyle.headlineSmall
                 )),
-            SizedBox(height: 22,),
+           Spacer(flex: 1,),
             Padding(padding: EdgeInsets.symmetric(horizontal: 16),
                 child:
                 Text("You can listen to the Holy Quran Radio through the application for free and easily",style:textStyle.headlineSmall?.copyWith(fontSize: 20)
                 )),
-            SizedBox(
-              height: 22,
-            )
+            Spacer(flex: 1,)
             ,
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
