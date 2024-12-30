@@ -31,15 +31,14 @@ children: [
       child:
   Text("$guidanceText",style:textStyle.headlineSmall
 )),
-  SizedBox(height: 22,),
+  Spacer(flex: 1,),
   Padding(padding: EdgeInsets.symmetric(horizontal: 16),
       child:
   Text("$extraGuidanceText",style:textStyle.headlineSmall?.copyWith(fontSize: 20)
 )),
-  SizedBox(
-    height: 22,
-  )
+ Spacer(flex: 1,)
   ,
+
   Row(
     mainAxisAlignment: MainAxisAlignment.spaceBetween,
     children: [
