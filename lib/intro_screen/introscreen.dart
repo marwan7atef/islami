@@ -35,7 +35,7 @@ children: [
   Padding(padding: EdgeInsets.symmetric(horizontal: 16),
       child:
   Text("$extraGuidanceText",style:textStyle.headlineSmall?.copyWith(fontSize: 20)
-)),
+,textAlign:TextAlign.center ,)),
  Spacer(flex: 1,)
   ,
 
